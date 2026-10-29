@@ -1,5 +1,13 @@
 # @tanstack/query-persist-client-core
 
+## 5.105.1
+
+### Patch Changes
+
+- [#11678](https://github.com/TanStack/query/pull/11678) [`db79da7`](https://github.com/TanStack/query/commit/db79da70ede675b8f41c7b2227d0123cfdd14839) - fix(query-persist-client-core): catch errors when persisting in 'persistQueryClientSubscribe' to prevent unhandled promise rejections, and log them in development
+- Updated dependencies [[`6f8a48d`](https://github.com/TanStack/query/commit/6f8a48d543b499b6d9b0e95050c28183c8c18ae0), [`18e54bf`](https://github.com/TanStack/query/commit/18e54bfac3dc3756afdb8840418d831c61bc15bf)]:
+  - @tanstack/query-core@5.105.1
+
 ## 5.105.0
 
 ### Patch Changes
